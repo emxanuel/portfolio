@@ -8,11 +8,11 @@ export const showDefaultLang = false
 
 export const ui = {
     es: {
-        "home.main.title": "Página bajo construcción",
-        "home.main.subtitle": "Lo sentimos, esta página no está lista aún. Vuelva luego :)"
+        "home.main.title": "Emmanuel Arturo Lopez Garcia",
+        "home.main.subtitle": "Programador Web"
     },
     en: {
-        "home.main.title": "Page under construction",
-        "home.main.subtitle": "Sorry, this page is not ready yet. Come back later :)"
+        "home.main.title": "Emmanuel Arturo Lopez Garcia",
+        "home.main.subtitle": "Web Programmer"
     }
 }
