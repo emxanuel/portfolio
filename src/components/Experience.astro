@@ -1,0 +1,20 @@
+---
+import { useTranslations } from "../i18n/utils";
+import { getLangFromUrl } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const translations = useTranslations(lang);
+const indexes = [
+    'first',
+    'second',
+    'third',
+]
+---
+
+<section>
+    <h2 class="font-bold">{translations('home.experience.title')}</h2>
+    {indexes.map((text) => (
+        <div class="flex gap-2">
+            <h3 class="font-semibold">{translations(`home.experience.${text}` as any)}</h3> <span class="italic">{translations(`home.experience.${text}.date` as any)}</span>
+        </div>
+    ))}
+</section>

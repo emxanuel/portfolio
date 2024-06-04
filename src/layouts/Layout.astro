@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from "astro:transitions"
 import GlobalStyles from "../components/GlobalStyles.astro"
 const {title} = Astro.props
 const {currentLocale} = Astro
@@ -11,9 +12,10 @@ const {currentLocale} = Astro
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
         <meta name="generator" content={Astro.generator}>
+        <ViewTransitions />
         <title>{title}</title>
     </head>
-    <body class="h-full">
+    <body class="w-[50rem] m-auto">
         <GlobalStyles />
         <slot></slot>
     </body>
