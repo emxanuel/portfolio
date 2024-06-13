@@ -11,10 +11,12 @@ const indexes = [
 ---
 
 <section>
-    <h2 class="font-bold">{translations('home.experience.title')}</h2>
-    {indexes.map((text) => (
-        <div class="flex gap-2">
-            <h3 class="font-semibold">{translations(`home.experience.${text}` as any)}</h3> <span class="italic">{translations(`home.experience.${text}.date` as any)}</span>
-        </div>
-    ))}
+    <h2 class="font-bold mb-4 text-xl md:text-2xl">{translations('home.experience.title')}</h2>
+    <div class="flex flex-col gap-2">
+        {indexes.map((text) => (
+            <div class="flex gap-1 flex-col md:flex-row">
+                <h3 class="font-semibold">{translations(`home.experience.${text}` as any)}</h3> <span class="italic">{translations(`home.experience.${text}.date` as any)}</span>
+            </div>
+        ))}
+    </div>
 </section>

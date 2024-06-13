@@ -1,4 +1,5 @@
 import { ui, defaultLanguage, showDefaultLang } from './ui';
+import { projects } from './projects';
 
 export function getLangFromUrl(url: URL) {
   const [, lang] = url.pathname.split('/');
@@ -9,6 +10,12 @@ export function getLangFromUrl(url: URL) {
 export function useTranslations(lang: keyof typeof ui) {
   return function t(key: keyof typeof ui[typeof defaultLanguage]) {
     return ui[lang][key] || ui[defaultLanguage][key];
+  }
+}
+
+export function useProjectsTranslations(lang: keyof typeof projects) {
+  return function t(key: keyof typeof projects[typeof defaultLanguage]) {
+    return projects[lang][key] || projects[defaultLanguage][key];
   }
 }
 
