@@ -6,7 +6,11 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Portafolio Emmanuel López García">
-	<Hero />
-	<Experience />
-	<Projects />
+	<div class="h-screen overflow-y-scroll">
+		<Hero />
+		<div class="px-4">
+			<Experience />
+		</div>
+		<Projects />
+	</div>
 </Layout>
