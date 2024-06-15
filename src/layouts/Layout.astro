@@ -1,6 +1,7 @@
 ---
 import { ViewTransitions } from "astro:transitions"
 import GlobalStyles from "../components/GlobalStyles.astro"
+import ChangeLang from "../components/ChangeLang.astro"
 const {title} = Astro.props
 const {currentLocale} = Astro
 ---
@@ -15,8 +16,9 @@ const {currentLocale} = Astro
         <ViewTransitions />
         <title>{title}</title>
     </head>
-    <body class="md:w-[40rem] m-auto px-4 md:px-0">
+    <body class="md:w-[40rem] m-auto px-4 md:px-0 pb-8">
         <GlobalStyles />
+        <ChangeLang />
         <slot></slot>
     </body>
 </html>
