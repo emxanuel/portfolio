@@ -1,16 +1,14 @@
 ---
 import Experience from "../components/Experience.astro";
 import Hero from "../components/Hero.astro";
+import Contact from "../components/Contact.astro";
 import Projects from "../components/Projects.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Portafolio Emmanuel López García">
-	<div class="md:h-screen h-full overflow-y-scroll md:px-4">
-		<Hero />
-		<div class="px-4">
-			<Experience />
-		</div>
-		<Projects />
-	</div>
+	<Hero />
+	<Projects />
+	<Experience />
+	<Contact />
 </Layout>

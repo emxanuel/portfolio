@@ -1,0 +1,32 @@
+---
+import ChangeLang from "./ChangeLang.astro";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<header class="sticky top-0 z-50 -mx-4 md:-mx-8">
+  <div class="border-b border-white/10 bg-zinc-950/70 backdrop-blur">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 md:px-8">
+      <a href={lang === "en" ? "/en" : "/"} class="flex items-center gap-2 font-mono text-sm text-zinc-200 hover:text-white">
+        <span class="inline-flex h-2 w-2 rounded-full bg-sky-400"></span>
+        <span>emmanuel</span>
+      </a>
+
+      <nav class="hidden items-center gap-6 text-sm text-zinc-300 md:flex">
+        <a class="hover:text-white" href="#projects">{t("nav.projects")}</a>
+        <a class="hover:text-white" href="#experience">{t("nav.experience")}</a>
+        <a class="hover:text-white" href="#contact">{t("nav.contact")}</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <div class="md:hidden">
+          <a class="text-sm text-zinc-300 hover:text-white" href="#projects">{t("nav.projects")}</a>
+        </div>
+        <ChangeLang />
+      </div>
+    </div>
+  </div>
+</header>
+

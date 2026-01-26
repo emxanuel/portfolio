@@ -1,12 +1,12 @@
 ---
 import { ViewTransitions } from "astro:transitions"
 import GlobalStyles from "../components/GlobalStyles.astro"
-import ChangeLang from "../components/ChangeLang.astro"
+import SiteHeader from "../components/SiteHeader.astro"
 const {title} = Astro.props
 const {currentLocale} = Astro
 ---
 
-<html lang={currentLocale} class="h-screen">
+<html lang={currentLocale} class="min-h-screen bg-zinc-950 text-zinc-50 antialiased">
     <head>
         <meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -16,9 +16,11 @@ const {currentLocale} = Astro
         <ViewTransitions />
         <title>{title}</title>
     </head>
-    <body class="md:w-[40rem] m-auto px-4 md:px-0 pb-8">
+    <body class="min-h-screen font-sans">
         <GlobalStyles />
-        <ChangeLang />
-        <slot></slot>
+        <SiteHeader />
+        <main class="mx-auto max-w-5xl px-4 pb-20 pt-10 md:px-8 md:pt-14">
+            <slot></slot>
+        </main>
     </body>
 </html>
