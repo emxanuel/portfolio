@@ -14,7 +14,7 @@ export const ui = {
 
         "hero.badge": "Senior Software Engineer · Tech Lead",
         "hero.name": "Emmanuel López",
-        "hero.role": "Senior Full‑Stack Engineer (backend‑first) · Real‑time · AI/LLM",
+        "hero.role": "Senior Full‑Stack Engineer · Real‑time · AI/LLM",
         "hero.summary": "Construyo productos web y móviles listos para producción, con foco en backend (Node.js/Python), sistemas en tiempo real (WebSockets) e integraciones AI/LLM (RAG, embeddings, vector search). Me gusta llevar sistemas complejos desde arquitectura hasta producción, con énfasis en rendimiento, DX y calidad.",
         "hero.cta.projects": "Ver proyectos",
         "hero.cta.contact": "Contactar",
@@ -55,7 +55,7 @@ export const ui = {
 
         "hero.badge": "Senior Software Engineer · Tech Lead",
         "hero.name": "Emmanuel Lopez",
-        "hero.role": "Senior Full‑Stack Engineer (backend‑first) · Real‑time · AI/LLM",
+        "hero.role": "Senior Full‑Stack Engineer · Real‑time · AI/LLM",
         "hero.summary": "I build production-grade web and mobile products, with a strong backend focus (Node.js/Python), real-time systems (WebSockets), and AI/LLM integrations (RAG, embeddings, vector search). I like owning complex systems end-to-end, with an emphasis on performance, DX, and quality.",
         "hero.cta.projects": "View projects",
         "hero.cta.contact": "Contact",
