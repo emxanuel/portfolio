@@ -27,7 +27,7 @@ export const ui = {
         "experience.subtitle": "Roles recientes enfocados en productos en producción, tiempo real y AI.",
         "experience.mediarevolution.title": "Senior Software Engineer / Tech Lead",
         "experience.mediarevolution.company": "Media Revolution",
-        "experience.mediarevolution.location": "Remoto",
+        "experience.mediarevolution.location": "Santo Domingo, RD",
         "experience.mediarevolution.date": "Oct 2024 – Actualidad",
         "experience.mediarevolution.bullets": "Lideré la arquitectura y desarrollo de chatbots de soporte con LLMs (Ollama) usando RAG, embeddings y búsqueda vectorial, reduciendo costos de respuesta ~80%.\nEscalé un juego multijugador en tiempo real, bajando el uso de memoria en navegador de ~3GB a ~600MB y multiplicando la concurrencia backend por 5× optimizando pipelines WebSocket.\nDiseñé un sistema modular de pagos (Stripe, PayPal, crypto) para cambiar proveedores sin cambios del lado del cliente.\nConstruí features en tiempo real: charts en vivo, streams de precios y notificaciones event‑driven.\nActué como Tech Lead: definición de arquitectura, code reviews, mentoring y planificación de sprints multi‑servicio.",
 
@@ -68,7 +68,7 @@ export const ui = {
         "experience.subtitle": "Recent roles focused on production systems, real-time, and AI.",
         "experience.mediarevolution.title": "Senior Software Engineer / Tech Lead",
         "experience.mediarevolution.company": "Media Revolution",
-        "experience.mediarevolution.location": "Remote",
+        "experience.mediarevolution.location": "Santo Domingo, DR",
         "experience.mediarevolution.date": "Oct 2024 – Present",
         "experience.mediarevolution.bullets": "Led architecture and development of AI-powered support chatbots using LLMs (Ollama) with RAG, embeddings and vector search, reducing response costs by ~80%.\nScaled a real-time multiplayer trading game, reducing browser memory usage from ~3GB to ~600MB and increasing backend concurrency by 5× by optimizing WebSocket pipelines.\nDesigned a modular payment system (Stripe, PayPal, crypto) enabling provider switching without client-side changes.\nBuilt real-time features including live charts, price streams, and event-driven notifications.\nActed as Tech Lead: architecture decisions, code reviews, mentoring, and sprint management across multiple services.",
 
