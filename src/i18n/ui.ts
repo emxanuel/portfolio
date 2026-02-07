@@ -12,9 +12,9 @@ export const ui = {
         "nav.experience": "Experiencia",
         "nav.contact": "Contacto",
 
-        "hero.badge": "Senior Software Engineer",
+        "hero.badge": "Software Engineer",
         "hero.name": "Emmanuel López",
-        "hero.role": "Senior Full‑Stack Engineer · Real‑time · AI/LLM",
+        "hero.role": "Full‑Stack Engineer · Real‑time · AI/LLM",
         "hero.summary": "Construyo productos web y móviles listos para producción, desde el frontend (React/Next.js, UI/UX y performance) hasta el backend (Node.js/Python), incluyendo sistemas en tiempo real (WebSockets) e integraciones AI/LLM (RAG, embeddings, vector search). Me gusta llevar sistemas complejos desde arquitectura hasta producción, con énfasis en rendimiento, DX y calidad.",
         "hero.cta.projects": "Ver proyectos",
         "hero.cta.contact": "Contactar",
@@ -25,7 +25,7 @@ export const ui = {
 
         "experience.title": "Experiencia",
         "experience.subtitle": "Roles recientes enfocados en productos en producción, tiempo real y AI.",
-        "experience.mediarevolution.title": "Senior Software Engineer / Tech Lead",
+        "experience.mediarevolution.title": "Full‑Stack Engineer",
         "experience.mediarevolution.company": "Media Revolution",
         "experience.mediarevolution.location": "Santo Domingo, RD",
         "experience.mediarevolution.date": "Oct 2024 – Actualidad",
@@ -53,9 +53,9 @@ export const ui = {
         "nav.experience": "Experience",
         "nav.contact": "Contact",
 
-        "hero.badge": "Senior Software Engineer",
+        "hero.badge": "Software Engineer",
         "hero.name": "Emmanuel Lopez",
-        "hero.role": "Senior Full‑Stack Engineer · Real‑time · AI/LLM",
+        "hero.role": "Full‑Stack Engineer · Real‑time · AI/LLM",
         "hero.summary": "I build production-grade web and mobile products end-to-end, from frontend (React/Next.js, UI/UX, and performance) to backend (Node.js/Python), including real-time systems (WebSockets) and AI/LLM integrations (RAG, embeddings, vector search). I like owning complex systems from architecture to production, with an emphasis on performance, DX, and quality.",
         "hero.cta.projects": "View projects",
         "hero.cta.contact": "Contact",
@@ -66,7 +66,7 @@ export const ui = {
 
         "experience.title": "Experience",
         "experience.subtitle": "Recent roles focused on production systems, real-time, and AI.",
-        "experience.mediarevolution.title": "Senior Software Engineer / Tech Lead",
+        "experience.mediarevolution.title": "Full‑Stack Engineer / Tech Lead",
         "experience.mediarevolution.company": "Media Revolution",
         "experience.mediarevolution.location": "Santo Domingo, DR",
         "experience.mediarevolution.date": "Oct 2024 – Present",
